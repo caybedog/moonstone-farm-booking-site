@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (max-width: 640px) {
+  .moonstone-app .p-7 {
+    padding: 1rem;
+  }
+
+  .moonstone-app .p-8,
+  .moonstone-app .p-10 {
+    padding: 1.25rem;
+  }
+
+  .moonstone-app .py-7 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .moonstone-app .gap-6 {
+    gap: 1rem;
+  }
+
+  .moonstone-app .mt-8 {
+    margin-top: 1.5rem;
+  }
+
+  .moonstone-app .text-4xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .moonstone-app input,
+  .moonstone-app select,
+  .moonstone-app textarea {
+    font-size: 16px;
+  }
+}
