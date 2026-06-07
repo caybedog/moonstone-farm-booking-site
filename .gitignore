@@ -1,0 +1,18 @@
+.DS_Store
+.env
+.env.local
+.npm-cache/
+node_modules/
+dist/
+
+# Old local research/workspace artifacts that should not ship with Moonstone.
+2026-06-02/
+Jarvis/
+JarvisCommandCenter/
+humboldt_catalog_raw_html/
+humboldt_catalog_*.json
+humboldt_catalog_*.md
+humboldt_catalog_*.txt
+humboldt_catalog_complete_upload_summary.txt
+cal-state-coursework.csv
+build_humboldt_catalog_full.py
